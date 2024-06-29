@@ -26,3 +26,28 @@
   .space {
     margin-right: 1rem !important;
   }
+
+  /* captcha */
+#captcha,
+#captchasignup {
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #636363;
+  font-size: larger;
+  font-style: italic;
+
+}
+
+#refreshButton,
+#refreshButtonsignup {
+  color: #fd5631;
+  font-size: 36px;
+}
+
+.incorrectCaptcha {
+  color: #FF0000;
+}
+
+.correctCaptcha {
+  color: #7FFF00;
+}
